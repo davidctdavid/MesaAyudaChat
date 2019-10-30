@@ -1,0 +1,36 @@
+[
+    {
+        "TIPO":"RED",
+        "SOLUCIONES":[
+    {"PROBLEMA":"Sin conexión a internet",
+        "soluciones":["Paso 1:asegurarnos que no haya ningún problema con el router o con nuestro proveedor de Internet\nPaso 2:ir a Configuración > Actualización y seguridad > Solucionar problemas",
+            "Paso 1: Abrimos un símbolo del sistema con permisod de administrador\nPaso 2:anzamos los siguiente comando de forma consecutiva: netsh winsock reset, netsh int ip reset, ipconfig /release, ipconfig /renew y ipconfig /flushdns.",
+            "Paso 1: Abrir el Administrador de dispositivos\nPaso 2: ir a Adaptadores de red para buscar el nombre de nuestra tarjeta\nPaso 3:Hacemos clic con el botón derecho del ratón y seleccionamos la opción Actualizar controlador > Buscar software de controlador actualizdo automáticamente\nPaso 4:Es probable que después de completar el proceso sea necesario reiniciar el equipo"]},
+    {"PROBLEMA":"La conexión es lenta",
+        "soluciones":["Paso 1: dirígete a los ajustes de red de tu equipo y fíjate en el nivel de la señal que está recibiendo el dispositivo. En caso de que la señal sea débil, significa que el router se encuentra demasiado alejado o que no está bien colocado.",
+            "Paso 1: Si últimamente has instalado alguna barra, extensión o complemento, desactívalo o elimínalo para asegurarte de que no es el responsable de que la navegación sea más lenta de lo habitual.\nPaso 2:prueba a utilizar otro navegador que no sea el que usas habitualmente.\nPaso 3:Si con otro programa notas una mejoría, significa que el problema es tu navegador habitual. Elimínalo y vuélvelo a instalar."]}
+    ]},
+    {
+        "TIPO":"HARDWARE",
+        "SOLUCIONES":[
+    {"PROBLEMA":"Atasco de papel en la impresora",
+        "soluciones":["Paso 1: Lo primero que debemos hacer es localizar el papel y tratar de retirarlo de la bandeja de carga, como así también retirar cualquier pedazo de papel que haya podido quedar en la bandeja de carga del equipo.\nPaso 2: Luego de ello debemos pulsar el botón para que reanude la impresión que se interrumpió.\nPaso 3: es importante que nos aseguremos que el carro de impresión puede moverse libremente.\nPaso 4: Si no es así, lo que debemos hacer es retirar el papel atascado una hoja a la vez, siempre verificando al final que no haya trozos de papel restantes.\nPaso 5: Luego de ello reanudamos nuevamente la impresión pendiente y controlamos que el carro de impresión puede moverse libremente.\nPaso 6: De lo contrario deberemos buscar la existencia de trozos de papel en la parte posterior de la impresora, es decir en la zona donde se encuentran los cabezales.\nQuitar papel de la impresora\nPaso 7: Si hallamos papel en dicho lugar, debemos retirarlo con sumo cuidado, utilizando alguna pequeña pinza con la cual podamos acceder a estos pequeños espacios difíciles.\nPaso 8: Una vez efectuada dicha limpieza, debemos volver a colocar todo en su lugar, y asegurarnos que el módulo de impresión quede debidamente colocado. Luego de ello reanudamos la impresión y comprobamos que el carro de impresión pueda moverse libremente.\n",
+            "Paso 1:Apaga, desenchufa y abre la impresora\nPaso 2:Quita el cartucho de impresión si no ves el atasco de papel\nPaso 3: Inspecciona los rodillos. Los atascos de papel a menudo ocurren cuando el papel pasa entremedio de los dos rodillos. Si los rodillos giran fácilmente al tocarlos, rótalos lentamente hasta liberar el papel. Si el atasco es más complejo, con muchos pliegues y dobleces, busca el mecanismo que une al rodillo con el resto de la impresora. Quita cuidadosamente un rodillo y levántalo (alejándolo de la impresora) para liberar el papel.",
+            "Busca un botón para liberar el papel\nPaso 2:Reinicia la impresora\nPaso 3:Observa la lectura de ser posible\nPaso 4:Quita el exceso de papel"]},
+    {"PROBLEMA":"La pantalla se pone en negro",
+        "soluciones":["Paso 1: Comprueba el cable del monitor\nPaso 2:Revisa la configuración del ahorro de energía\nPaso 4:Si no es esto, prueba el monitor en otra computadora",
+            "Paso 1: Arranca en modo seguro\nPaso 2:Actualiza los drivers de la tarjeta gráfica o de vídeo"]},
+    {"PROBLEMA":"El CPU sin encender",
+        "soluciones":["Paso 1: Revisa los cables y conexiones\nPaso 2: Comprueba que haya corriente eléctrica\nPaso 3:Espera un tiempo y enciéndelo nuevamente",
+            "Paso 1: Revisa o cambia la fuente de alimentación "]}
+    ]},
+    {
+        "TIPO":"SOFTWARE",
+        "SOLUCIONES":[
+    {"PROBLEMA":"Windows sigue sin abrir el programa y tampoco devuelve errores",
+        "soluciones":["Paso 1: Abrir el administrador de tareas. Podemos hacerlo clicando con el botón derecho sobre la barra de inicio de Windows y seleccionando Iniciar el Administrador de tareas\nPaso 2:En la pestaña Procesos dentro del administrador buscaremos el proceso que corresponde al programa que no se ejecuta. Es decir, el nombre de la aplicación bloqueada.\nPaso 3: En ocasiones, el programa puede aparecer repetido. Esto es debido a que hemos intentado abrir el programa varias veces, y al estar bloqueado, se crea una especie de cuello de botella.\nPaso 4: Pulsamos con el botón derecho del ratón en el nombre del programa y seleccionar Finalizar tarea."]},
+    {"PROBLEMA":"Problemas con el contenido de un archivo",
+        "soluciones":["Paso 1: Abra Word\nPaso 2:  En el menú Archivo o en el botón Microsoft Office, haga clic en Abrir\n Paso 3: En el cuadro de diálogo, de clic para seleccionar el archivo de Word en blanco.\nPaso 4:Haga clic en la flecha hacia abajo en el botón Abrir, y luego haga clic en Abrir y Reparar",
+            "Paso 1:  Envíe el archivo de Word dañado a su cuenta de Gmail.\nPaso 2: Haga clic en el archivo adjunto para abrirlo en la vista previa de Google Docs.\nPaso 3: Haga clic en 'Abrir con Google Docs'. El documento debe abrirse y verse.\nPaso 4: Haga clic en Archivo > Descargar como > Microsoft Word (.docx)\nPaso 5:Utilice Microsoft Word para abrir el documento que acaba de descargar."]}
+    ]}
+]
